@@ -94,6 +94,7 @@ body
 }
 
 /*div 1*/
+
 .columna>div:nth-child(1) {
     align-self: center;
     padding: 0% 10% 0% 10%;
@@ -202,21 +203,81 @@ text-align: left;
 
   
 
+    .columna h1 {
+        font-size: 2.4em;
+      
+    }
 
+    .columna h2 {
+        font-size: 2em;
 
+    }
 
+   
+    .columna {
+       
+        max-width: 95%;
+       
+    }
 
+/*div 1*/
+.columna>div:nth-child(1) {
+    padding: 0% 1% 0% 10%;
+}
+
+.columna>div:nth-child(2) {
+
+    padding: 0% 4% 0% 0%;
+    box-sizing: border-box;
+   
+}
+
+/*Formulario*/
+#formSubmitLp {
+    background: #ffffffd6 0% 0% no-repeat padding-box;
+
+    box-sizing: border-box;
+    max-width: 70%;
+    padding: 4% 5%;
+}
 }
 
 /*Tablets dimensiones*/
 @media screen and (max-width:1100px) {
 
      
+.columna {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 100%;
+        margin: 0 auto;
+    }
+        /*div 1*/
+        .columna>div:nth-child(1) {
+            padding: 10% 9% ;
+            
+        }
+    
+        .columna>div:nth-child(2) {
+          
+            padding: 2%;
+            box-sizing: border-box;
+    
+        }
+                #formSubmitLp {
+                    background: #ffffffd6 0% 0% no-repeat padding-box;
+                    margin: 0 auto !important;
+                    box-sizing: border-box;
+                    max-width: 95%;
+                    padding: 4%;
+                    border-radius: 10px;
+                }
+
  
 }
 
 /*Celulares dimensiones*/
-@media screen and (max-width:750px) {
+@media screen and (max-width:850px) {
 
 #navBar img {
     padding: 1.6%;
@@ -228,4 +289,37 @@ text-align: left;
 
 }
 
+ .columna h1 {
+     font-size: 1.6em;
+
+ }
+
+ .columna h2 {
+     font-size: 1.3em;
+ }
+#formSubmitLp h3 {
+    
+    font-size: 1.2em;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+#formSubmitLp p {
+    
+    font-size: 1.1em;
+   
+}
+
+#formSubmitLp label {
+   
+    font-size: 1em;
+   
+}
+
+ .sec-inicial {
+     background-color: #40c1bb !important;
+     background-image: none;
+     padding-bottom: 10%;
+ }
 }
