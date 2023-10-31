@@ -33,6 +33,17 @@
     }
 }
 
+.resaltes {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ec2f2f !important;
+    outline: 1px solid #ec2f2f !important;
+    box-shadow: 0 1rem 3rem rgba(89, 83, 83, 0.175) !important;
+}
+
+.error {
+    color: #ec2f2f !important;
+}
 
 /* componentes generales*/
 
@@ -76,13 +87,13 @@ body
 /* Seccion inicial */
 .sec-inicial
 {
-    background-image: url('../img/psicologia.png');
     max-width: 100%;
     margin:  0 auto;
     padding: 0;
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
+   
 }
 
 .columna
@@ -318,8 +329,8 @@ text-align: left;
 }
 
  .sec-inicial {
-     background-color: #40c1bb !important;
-     background-image: none;
+     
+     background-image: none !important;
      padding-bottom: 10%;
  }
 }
